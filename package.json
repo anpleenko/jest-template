@@ -4,7 +4,7 @@
   "description": "Template for testing react, styled-components, graphql, typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,20 @@
   },
   "homepage": "https://github.com/anpleenko/jest-template#readme",
   "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
     "@tsconfig/create-react-app": "^1.0.2",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-import-remove-resource-query": "^1.0.0",
     "jest": "^26.6.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "regenerator-runtime": "^0.13.7",
+    "ts-jest": "^26.5.4",
+    "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
   },
   "devDependencies": {
