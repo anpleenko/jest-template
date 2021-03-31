@@ -22,7 +22,7 @@
     "@babel/preset-env": "^7.13.12",
     "@babel/preset-react": "^7.12.13",
     "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.5",
+    "@testing-library/react": "^11.2.6",
     "@tsconfig/create-react-app": "^1.0.2",
     "babel-jest": "^26.6.3",
     "babel-plugin-import-remove-resource-query": "^1.0.0",
