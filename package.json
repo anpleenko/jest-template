@@ -19,7 +19,7 @@
   "homepage": "https://github.com/anpleenko/jest-template#readme",
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.12.13",
-    "@babel/preset-env": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.13.13",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
