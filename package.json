@@ -40,6 +40,6 @@
     "husky": "^5.2.0",
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.0",
-    "sort-package-json": "^1.50.0"
+    "sort-package-json": "^1.51.0"
   }
 }
