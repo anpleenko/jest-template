@@ -22,7 +22,7 @@
     "@babel/preset-env": "^7.15.6",
     "@babel/preset-react": "^7.13.13",
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.1.1",
+    "@testing-library/react": "^12.1.2",
     "@tsconfig/create-react-app": "^1.0.2",
     "babel-jest": "^27.2.4",
     "babel-plugin-import-remove-resource-query": "^1.0.0",
@@ -38,7 +38,7 @@
     "@types/react": "^17.0.25",
     "@types/react-dom": "^17.0.8",
     "husky": "^5.2.0",
-    "lint-staged": "^11.1.2",
+    "lint-staged": "^11.2.1",
     "prettier": "^2.4.0",
     "sort-package-json": "^1.52.0"
   }
