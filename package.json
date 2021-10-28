@@ -2,32 +2,34 @@
   "name": "jest-template",
   "version": "0.0.1",
   "description": "Template for testing react, styled-components, graphql, typescript",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
+  "keywords": [],
+  "homepage": "https://github.com/anpleenko/jest-template#readme",
+  "bugs": {
+    "url": "https://github.com/anpleenko/jest-template/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anpleenko/jest-template.git"
   },
-  "keywords": [],
-  "author": "Alexander Anpleenko <avanpleenko@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anpleenko/jest-template/issues"
+  "author": "Alexander Anpleenko <avanpleenko@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "pre-commit": "lint-staged",
+    "prepare": "husky install",
+    "test": "jest"
   },
-  "homepage": "https://github.com/anpleenko/jest-template#readme",
   "dependencies": {
-    "@babel/plugin-syntax-jsx": "^7.12.13",
-    "@babel/preset-env": "^7.15.6",
-    "@babel/preset-react": "^7.13.13",
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@tsconfig/create-react-app": "^1.0.2",
     "babel-jest": "^27.3.1",
     "babel-plugin-import-remove-resource-query": "^1.0.0",
     "jest": "^27.3.1",
-    "react": "^17.0.1",
+    "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "regenerator-runtime": "^0.13.9",
     "ts-jest": "^27.0.7",
@@ -37,9 +39,9 @@
   "devDependencies": {
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
-    "husky": "^5.2.0",
+    "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
-    "prettier": "^2.4.0",
+    "prettier": "^2.4.1",
     "sort-package-json": "^1.52.0"
   }
 }
