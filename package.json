@@ -26,7 +26,7 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.1.2",
     "@tsconfig/create-react-app": "^1.0.2",
-    "babel-jest": "^27.3.1",
+    "babel-jest": "^27.4.0",
     "babel-plugin-import-remove-resource-query": "^1.0.0",
     "jest": "^27.3.1",
     "react": "^17.0.2",
