@@ -27,7 +27,7 @@
     "@testing-library/jest-dom": "5.16.2",
     "@testing-library/react": "12.1.4",
     "@tsconfig/create-react-app": "1.0.2",
-    "babel-jest": "27.5.1",
+    "babel-jest": "28.1.1",
     "babel-plugin-import-remove-resource-query": "1.0.0",
     "jest": "27.5.1",
     "react": "17.0.2",
@@ -38,7 +38,7 @@
     "typescript": "4.6.3"
   },
   "devDependencies": {
-    "@types/node": "17.0.22",
+    "@types/node": "18.0.0",
     "@types/react": "17.0.41",
     "@types/react-dom": "17.0.14",
     "husky": "7.0.4",
