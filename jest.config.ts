@@ -2,9 +2,9 @@ import type { Config } from '@jest/types';
 
 const config: Config.InitialOptions = {
   verbose: true,
-  setupFilesAfterEnv: ['./jest.setup.js'],
-  testMatch: ['**/__tests__/*test.(ts|tsx|js|jsx)'],
-  preset: 'ts-jest/presets/js-with-babel-esm',
+  setupFilesAfterEnv: ['./jest.setup.ts'],
+  preset: 'ts-jest',
+  testEnvironment: 'node',
 };
 
 export default config;
