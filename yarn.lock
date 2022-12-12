@@ -1005,10 +1005,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.11.3":
+"@types/node@npm:*":
   version: 18.11.3
   resolution: "@types/node@npm:18.11.3"
   checksum: 3a2a9142d891a90a195c296149bf64a69cc0abcc42f543be911ab22b2e0ead85ff077f90af92f0f13f6e3e5e72501469200fd753dfd1101825d4646a89d3ee47
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:18.11.13":
+  version: 18.11.13
+  resolution: "@types/node@npm:18.11.13"
+  checksum: b0c1aa3bd2f5df8240e61096a49d6d4be600109b824d23408ec4ba1ec057dc0c60588e09f73b8a60455ad26d367e9c5562fad8403099f885cbc7b4cace83ec4c
   languageName: node
   linkType: hard
 
@@ -3190,7 +3197,7 @@ __metadata:
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 13.4.0
     "@tsconfig/create-react-app": 1.0.2
-    "@types/node": 18.11.3
+    "@types/node": 18.11.13
     "@types/react": 18.0.21
     "@types/react-dom": 18.0.6
     husky: 8.0.1
