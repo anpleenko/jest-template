@@ -1162,12 +1162,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.10.8":
-  version: 20.10.8
-  resolution: "@types/node@npm:20.10.8"
+"@types/node@npm:20.11.19":
+  version: 20.11.19
+  resolution: "@types/node@npm:20.11.19"
   dependencies:
     undici-types: ~5.26.4
-  checksum: ce9b7ee545b3605f667be2ea900e38ab58d7b561192a7342443e5d7f61c44fd9d016eac48e95d3011f090ceea65a727e83a31d51fabdd9fc20ff9992edcbc682
+  checksum: 259d16643ba611ade617a8212e594a3ac014727457507389bbf7213971346ab052d870f1e6e2df0afd0876ecd7874f578bccb130be01e069263cfc7136ddc0c1
   languageName: node
   linkType: hard
 
@@ -3472,7 +3472,7 @@ __metadata:
   dependencies:
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 14.1.2
-    "@types/node": 20.10.8
+    "@types/node": 20.11.19
     "@types/react": 18.2.48
     "@types/react-dom": 18.2.18
     husky: 9.0.11
