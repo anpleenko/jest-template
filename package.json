@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "pre-commit": "lint-staged",
-    "prepare": "husky install",
+    "prepare": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'",
     "test": "jest",
     "test:watch": "jest --watch"
   },
@@ -34,7 +34,6 @@
     "@types/node": "20.12.11",
     "@types/react": "18.3.2",
     "@types/react-dom": "18.3.0",
-    "husky": "9.0.11",
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",
     "sort-package-json": "2.10.0"
