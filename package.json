@@ -15,8 +15,8 @@
   "author": "Alexander Anpleenko <avanpleenko@gmail.com>",
   "main": "index.js",
   "scripts": {
+    "postinstall": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'",
     "pre-commit": "lint-staged",
-    "prepare": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'",
     "test": "jest",
     "test:watch": "jest --watch"
   },
